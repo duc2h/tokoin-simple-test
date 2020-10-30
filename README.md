@@ -13,6 +13,8 @@
 
 ### Goroutine, Worker pool:
 * Goroutine make golang become power. It can create hundreds of other thread processing but uses few resource. So i decide apply worker pool into my project to make processing find data faster. Currently we have 4 worker number, it's main it run 4 times fatter because we have 4 thread to processing instead of 1 thread. If you want find fatter, you can increase worker number, but attention  resources your computer.
+
+
 ![image](https://user-images.githubusercontent.com/36435846/97753759-e0421100-1b28-11eb-9b57-c491670496a4.png)
 
 ### Result
