@@ -7,5 +7,6 @@
 ## Explan what i do.
 ### Structure, design code:
 * I apply structure this because it's quite easy to understand, clean and highly reuseable.
-* We have floder datas to init data from file .json, and mock data to unit test. Floder repositories to find data from memory have use worker pool (it's make )
-
+* We have folder datas to init data from file .json, and mock data to unit test. 
+* Folder repositories are defind method can use to find data from memory. Folder repo-impl is implement method from repositories, it applies worker pool to make betterFolder performance (i'll explain it late). 
+* Folder businesses are defind method to processing logic. Folder business-impl is implement method from businesses and interact with repositories to get data.
